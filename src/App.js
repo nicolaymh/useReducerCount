@@ -17,8 +17,9 @@ const App = () => {
     //* Functions:
     const sum = () => dispatch({ type: COUNT_TYPES.SUM });
     const subtract = () => dispatch({ type: COUNT_TYPES.SUBSTRACTION });
-    const sum_10 = () => dispatch({ type: COUNT_TYPES.SUM_10 });
-    const subtract_10 = () => dispatch({ type: COUNT_TYPES.SUBSTRACTION_10 });
+    const sum_10 = () => dispatch({ type: COUNT_TYPES.SUM_10, payload: 10 });
+    const subtract_10 = () =>
+        dispatch({ type: COUNT_TYPES.SUBSTRACTION_10, payload: 10 });
     const reset = () => dispatch({ type: COUNT_TYPES.RESET });
 
     return (
