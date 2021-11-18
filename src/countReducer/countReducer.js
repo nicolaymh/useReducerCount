@@ -6,7 +6,7 @@ export const countInitialState = {
 
 export const countInit = (initialState) => {
     return {
-        count: initialState.count + 50,
+        count: initialState.count + 100,
     };
 };
 
