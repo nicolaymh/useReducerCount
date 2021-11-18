@@ -1,0 +1,7 @@
+export const COUNT_TYPES = {
+    SUM: 'SUM',
+    SUBSTRACTION: 'SUBSTRACTION',
+    SUM_10: 'SUM_10',
+    SUBSTRACTION_10: 'SUBSTRACTION_10',
+    RESET: 'RESET',
+};
